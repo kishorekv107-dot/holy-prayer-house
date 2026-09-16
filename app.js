@@ -1,0 +1,1 @@
+const menuBtn=document.getElementById("menuBtn"),nav=document.getElementById("nav");menuBtn?.addEventListener("click",()=>nav.classList.toggle("open"));nav?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));if("serviceWorker"in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}
