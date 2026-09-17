@@ -1,0 +1,8 @@
+{
+  "church":{"location":"Madhapur","bishop":"Bishop Ravi Jesupaul","phone":"123-456-7890","email":"test@hph.co.on"},
+  "services":[{"name":"English Service","schedule":"Every Sunday · 9:00 AM–11:30 AM"},{"name":"Telugu Service","schedule":"Every Sunday · 11:30 AM–1:30 PM"},{"name":"Hindi Service","schedule":"Every Sunday · 6:00 PM–8:30 PM"}],
+  "sermon":{"title":"Telugu Sermon","speaker":"Ravi Jesupaul","date":"13 September 2026","description":"Telugu Service","youtube":"https://www.youtube.com/watch?v=1wKRrJbUo4"},
+  "videos":[{"title":"SUNDAY COMBINED SERVICE","date":"5 October 2026","youtube":"https://www.youtube.com/@HPHIndia/videos"},{"title":"Telugu Service","date":"9 June 2026","youtube":"https://www.youtube.com/@HPHIndia/videos"}],
+  "updates":[{"title":"English Service","text":"Every Sunday · 9:00 AM–11:30 AM"},{"title":"Telugu Service","text":"Every Sunday · 11:30 AM–1:30 PM"},{"title":"Hindi Service","text":"Every Sunday · 6:00 PM–8:30 PM"},{"title":"Women’s Prayer Meeting","text":"Every day"},{"title":"Fasting Prayer","text":"Every Friday · 11:00 AM–1:30 PM"}],
+  "events":[{"title":"English Service","location":"Main Church","text":"Every Sunday · 9:00 AM–11:30 AM"},{"title":"Telugu Service","location":"Main Church","text":"Every Sunday · 11:30 AM–1:30 PM"},{"title":"Hindi Service","location":"Main Church","text":"Every Sunday · 6:00 PM–8:30 PM"},{"title":"Women’s Prayer Meeting","location":"Main Church","text":"Every day"},{"title":"Fasting Prayer","location":"Main Church","text":"Every Friday · 11:00 AM–1:30 PM"}]
+}

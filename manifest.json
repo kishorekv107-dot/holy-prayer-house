@@ -1,12 +1,1 @@
-{
-  "name": "Holy Prayer House",
-  "short_name": "HPH",
-  "description": "Holy Prayer House — a place of prayer, worship and God's Word.",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#faf9fc",
-  "theme_color": "#6d28d9",
-  "icons": [
-    {"src":"hph-logo.jpg","sizes":"359x263","type":"image/jpeg","purpose":"any"}
-  ]
-}
+{"name":"Holy Prayer House","short_name":"HPH","start_url":"./","display":"standalone","background_color":"#faf8fc","theme_color":"#5b168c","icons":[{"src":"hph-logo.jpg","sizes":"any","type":"image/jpeg"}]}
