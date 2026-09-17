@@ -1,1 +1,1 @@
-{"name":"Holy Prayer House","short_name":"HPH","start_url":"./","display":"standalone","background_color":"#faf8fc","theme_color":"#5b168c","icons":[{"src":"hph-logo.jpg","sizes":"any","type":"image/jpeg"}]}
+{"name": "Holy Prayer House", "short_name": "HPH", "start_url": "./", "display": "standalone", "background_color": "#fbf9fc", "theme_color": "#5b168c", "icons": [{"src": "hph-logo.jpg", "sizes": "any", "type": "image/jpeg"}]}
