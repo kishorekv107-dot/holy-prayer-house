@@ -512,3 +512,12 @@ footer a{
     padding:24px 15px
   }
 }
+
+/* HPH Ministry Photo */
+.hero-inner{
+  background-image:
+    linear-gradient(rgba(76,29,149,.78),rgba(76,29,149,.78)),
+    url("hph-bishop-ministry.jpg");
+  background-size:cover;
+  background-position:center;
+}
