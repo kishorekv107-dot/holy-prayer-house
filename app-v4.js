@@ -56,7 +56,7 @@ Promise.all(Object.values(GIDS).map(sheet)).then(([services,videos,sermons,updat
   document.getElementById("sermon").innerHTML=
     `<article class="sermon-feature"><div><h3>${s.Title}</h3><div class="meta">${s.Speaker} · ${s.Date}</div><p>${s.Description}</p></div><a class="btn watch" href="${s["YouTube Link"]}" target="_blank" rel="noopener">Watch on YouTube ↗</a></article>`;
 
-  document.getElementById("heroSermon").href=s["YouTube Link"];
+  const hero=document.getElementById("heroSermon");hero.href=(s["YouTube Link"]||"").trim();hero.target="_blank";hero.rel="noopener";
 
   document.getElementById("videosGrid").innerHTML=videos.map(x=>
     `<article class="card video"><div class="video-main"><div class="video-icon">▶</div><div><h3>${x.Title}</h3><div class="meta">${x.Date}</div></div></div><a href="${x["YouTube Link"]}" target="_blank" rel="noopener">Watch ↗</a></article>`
